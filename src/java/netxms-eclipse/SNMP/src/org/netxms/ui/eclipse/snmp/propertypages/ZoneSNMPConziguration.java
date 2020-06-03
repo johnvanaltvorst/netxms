@@ -486,7 +486,7 @@ public class ZoneSNMPConziguration extends PropertyPage
       });
       
       usmEditButton = new Button(buttonsRight, SWT.PUSH);
-      usmEditButton.setText("Mofigy");
+      usmEditButton.setText("Modify");
       rd = new RowData();
       rd.width = WidgetHelper.BUTTON_WIDTH_HINT;
       usmEditButton.setLayoutData(rd);
